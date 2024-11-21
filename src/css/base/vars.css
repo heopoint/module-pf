@@ -1,0 +1,41 @@
+:root{
+    --mainEng-font:"Raleway";
+    --mainKor-font:"Nanum Gothic Coding";
+    --mainNum-font:"Orbitron";
+    --title-font:"Orbit";
+
+    --mainBg-color:#9a6dfe;
+    
+    --mainColor-100:#F7B2CF;
+    --mainColor-200:#624FE6;
+    --mainColor-400:#6A65D7;
+    --mainColor-300:#8657E3;
+ 
+    --white:rgb(250 250 250);
+    --black:#000;
+    --black-100: rgb(228 228 231);
+    --black-200:rgb(212 212 216);;
+    --black-300:rgb(161 161 170);;
+ 
+  
+
+    font-family:  var(--mainEng-font),var(--mainKor-font),var(--mainNum-font),var(--title-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust:100%;
+
+
+
+}
+body{
+  background-color: var(--mainBg-color);
+    color: var(--white);
+}
+
+@media (max-width:800px) {
+    :root{font-size: 14px;}
+}
